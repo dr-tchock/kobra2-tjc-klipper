@@ -1,0 +1,7 @@
+# Scripts run on the Pi: always LF
+* text=auto eol=lf
+*.tft binary
+*.zi binary
+*.png binary
+*.gif binary
+*.bin binary

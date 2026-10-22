@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Build output of klipper-bridge/build_mcu.sh (specific to your Klipper version)
+firmware/
+
+# Downloaded by tools/fetch_fonts.sh
+assets/fonts/*.ttf
+assets/fonts/mdi-meta.json
+
+# Mockups rendered by tools/mockup.py (curated copies live in docs/screens)
+mockups/
+
+# USART HMI project (16 MB binary; publish it as a release asset instead)
+tft/*.HMI
+tft/*.bak
