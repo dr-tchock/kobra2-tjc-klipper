@@ -12,6 +12,7 @@ assets/fonts/mdi-meta.json
 # Mockups rendered by tools/mockup.py (curated copies live in docs/screens)
 mockups/
 
-# USART HMI project (16 MB binary; publish it as a release asset instead)
+# USART HMI project files (not published; rebuild from assets/ and tft/fonts/,
+# see docs/editing-the-tft.md)
 tft/*.HMI
 tft/*.bak
